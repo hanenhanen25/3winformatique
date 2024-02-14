@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset width="100px">
+        <legend> vos coordonnées</legend>
+        <form method="post" action="sauvegarde.html" name="formilaire">
+            nom :<input type="text" name="nom" size="20" maxlength="12" placeholder="votre nom "><br>
+            prénom:<input type="text" name="nom" size="20" maxlength="12" placeholder="votre  prénom"><br>
+            Date de naissance <input type="date" name="date_naiss"><br>
+           votre site<input type="site" name="site" required ><br>
+           code <input type="code" minlength="8" maxlength="15"> <br>
+           <p>genre:
+           <input type="radio" name="R1" value="v3"checked>homme
+           <input type="radio" name="R1" value="v4">femme</p>
+           <p>
+            pays:<select name="D1">
+                <option>tunisie</option>
+                <option>palestine</option>
+                <option>Qatar</option>
+                <option>maroc</option>
+                <option>france</option>
+                <option>italie</option></select>
+            </p>
+            </form>
+    </fieldset><br> 
+    <fieldset>
+        <legend>vos gouts</legend>
+        <form method="post" action="sauvegarde.html" name="formilaire">
+            <p>
+                <input type="checkbox" name="C1" value="ON"> tarte aux fraises à la crème d'amande<br>
+                <input type="checkbox" name="C1" value="ON">tarte aux punes <br>
+                <input type="checkbox" name="C1" value="ON">tarte rustique aux mirablles de Lorraine .noisette et miel <br>
+                <textarea rows="3" name="S1" cols="20" placeholder=" vos goutes en détail"></textarea><br>
+            </p>
+            
+            </form>
+    </fieldset>  
+    <fieldset>
+        <legend>Envoyez nous votre photo</legend>
+        <form method="post" action="sauvegarde.html" name="formilaire">
+      
+            <input type="file" value="choisir fichier" name="b1"><br>   
+            <input type="submit" value="Effacer" name="b1">
+            <input type="submit" value="Envoyer" name="b1">
+        </form>
+
+
+    </fieldset>                                                                                                                                                                         
+
+
+        
+       
+    </body>
+    </html>

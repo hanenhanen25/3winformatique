@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Coordonnées</legend>
+        <form method="post" action="sauvegarde.html" name="formilaire">
+            <p>
+                Civilité:
+                <input type="radio" name="R1" value="v3"checked>Mademoiselle
+                <input type="radio" name="R1" value="v4"> Madame
+                <input type="radio" name="R1" value="v3"checked>Monsieur
+             </p>
+             Nom/Prénom:<input type="text" name="nom" size="20" maxlength="12"><br>
+             Adreese<textarea rows="1" name="S1" cols="50" placeholder="rue no boite postale"></textarea><br>
+             code postal / localité/Gouvernorat:<input type="text" >
+             <input type="text" placeholder="Jendouba" >
+            <select name="D1">
+             <option>Jendouba</option>
+             <option>manouba</option>
+             <option>djerba</option>
+            </select><br>
+            pays:
+            <select name="D2">
+                <option>tunis</option>
+                <option>france</option>
+                <option>Qatar</option>
+            </select><br>
+            Platforme: <input type="checkbox" value="ON" checked>Windows
+            <input type="checkbox" value="ON" checked>Macintosh
+            <input type="checkbox" value="ON" >Unix<br>
+            Application(s):
+            <select name="D3" multiple="yes">
+                <option>Bureautique</option>
+                <option>DAO</option>
+                <option>Statistiques</option>
+                <option>SGBD</option>
+                <option>internet</option>
+            </select>
+            <br>
+            <center>
+                <input type="submit" value="Soumettre le formulaire" name="b1">
+            <input type="submit" value="Effacer" name="b1">
+            </center>
+
+
+
+
+        </form>
+    </fieldset>
+</body>
+</html>

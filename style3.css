@@ -1,0 +1,35 @@
+h6{
+      animation: glissement 4s infinite ease-out  0s  alternate ;
+    }
+ @keyframes glissement{
+         from {
+            margin-left: 100%;
+            width:100%;
+          }
+            
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+h2{ 
+  animation:gliss 3s infinite   forwards   ;
+} 
+@keyframes gliss{
+  from{
+    color:red;
+  }
+  to{
+    
+    color: greenyellow;
+  }
+}  
+#anim:hover{
+  color:red;
+
+}   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+
+  
+   
+
